@@ -1,0 +1,95 @@
+mo-anwar@ubuntu:/$ sudo su
+:[sudo] password for mo-anwar
+
+root@ubuntu:/# cd /home
+root@ubuntu:/home# mkdir task
+root@ubuntu:/home# ls
+mo-anwar task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# mkdir anwar1 anwar2
+root@ubuntu:/home/task# ls
+anwar1  anwar2
+root@ubuntu:/home/task# cd anwar1
+root@ubuntu:/home/task/anwar1# cat > file1.txt
+this is file 1
+Dr.samar 
+operating system
+^c
+^c
+^C
+cat file1.txt   
+clear
+$_
+root@ubuntu:/home/task/ahmed1# cat file1.txt
+this is file 1
+Dr.samar 
+operating system
+^c
+^c
+^C
+cat file1.txt
+clear
+$_
+root@ubuntu:/home/task/ahmed1# cat > file2.txt
+this is file 2
+Muhammed Anwar Abdelnaby
+operating system
+root@ubuntu:/home/task/ahmed1# cat > file3.txt
+^C
+root@ubuntu:/home/task/ahmed1# cat file3.txt
+root@ubuntu:/home/task/anwar1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/anwar1# cp file1.txt /home/task/anwar2
+root@ubuntu:/home/task/anwar1# cd ../
+root@ubuntu:/home/task# cd anwar2
+root@ubuntu:/home/task/anwar2# ls
+file1.txt
+root@ubuntu:/home/task/anwar2# cd ../..
+root@ubuntu:/home# ls |grep a|grep A
+root@ubuntu:/home# ls
+mo-anwar task
+root@ubuntu:/home# cd task
+root@ubuntu:/home/task# ls |grep a|grep A
+root@ubuntu:/home/task# ls 
+anwar1  anwar2
+root@ubuntu:/home/task# cd anwar1
+root@ubuntu:/home/task/anwar1# ls
+file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/anwar1# cat > Abo.txt
+sfhagkjhgk;jlhlf;sg
+^C
+root@ubuntu:/home/task/anwar1# cat > anwar.txt
+dfhghdghdg^C
+root@ubuntu:/home/task/anwar1# ls
+Abo.txt  anwar.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/anwar1# ls |grep a|grep A
+root@ubuntu:/home/task/anwar1# ls | grep a| grep A
+root@ubuntu:/home/task/anwar1# ls
+Abo.txt  anwar.txt  file1.txt  file2.txt  file3.txt
+root@ubuntu:/home/task/anwar1# ls | grep a
+ahmed.txt
+root@ubuntu:/home/task/anwar1# ls | grep A
+Abo.txt
+root@ubuntu:/home/task/anwar1# ls | wc-1
+wc-1: command not found
+root@ubuntu:/home/task/anwar1# ls | wc-l
+wc-l: command not found
+root@ubuntu:/home/task/anwar1# ls | wc l
+wc: l: No such file or directory
+root@ubuntu:/home/task/anwar1# ls | Wc-l
+Wc-l: command not found
+root@ubuntu:/home/task/anwar1# ls | WC-l
+WC-l: command not found
+root@ubuntu:/home/task/anwar1# ls -1 | wc -l
+5
+root@ubuntu:/home/task/anwar1# ls | wc -l
+5
+root@ubuntu:/home/mo-anwar# touch language.c
+root@ubuntu:/home/mo-anwar# gcc -o helloanwar language.c
+root@ubuntu:/home/mo-anwar# ./a.out language c
+oot@ubuntu:/home/mo-anwar# date
+Thu 29 Apr 2021 12:45:53 AM PDT
+root@ubuntu:/home/mo-anwar# ls
+Desktop  Documents  Downloads  language.c  Music  Pictures  Public  Templates  Videos
+root@ubuntu:/home/mo-anwar# pwd
+/home/mo-anwar
